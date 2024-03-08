@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /*
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /*
+      --foreground-rgb: 255, 255, 255;
+      --background-start-rgb: 16, 26, 43
+      --background-end-rgb: 16, 26, 43
+    */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body,
+* {
+  cursor: none;
+}
+
+.flare {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: #ffffff70 1px solid;
+  border-radius: 50%;
+  mix-blend-mode: hard-light;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 999999 !important;
+  padding: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .flare {
+    display: none;
+    width: 0;
+    height: 0;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out,
+      opacity 0.2s ease-in-out;
+  }
+}
