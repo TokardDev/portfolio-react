@@ -2,6 +2,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import MyTimeline from "@/components/MyTimeline";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -47,14 +50,18 @@ export default function Home() {
         }
       `}</style>
 
-      <main ref={mainBackGradient} className="followGradient flex min-h-screen flex-col items-left justify-between p-24">
-        <div className="z-10 max-w-5xl w-full justify-between font-mono text-sm lg:flex">
-          <h1 className="text-4xl md:text-5xl font-bold text-center lg:text-left text-[#EDEDE8] lg:text-6xl">
-            Adrien Augeix
-            <p className="text-2xl md:text-4xl font-bold bg-clip-text lg:text-4xl">
-              Developer
-            </p>
-          </h1>
+      <main ref={mainBackGradient} className="followGradient flex min-h-screen flex-col items-left justify-between">
+        <div className="grid grid-cols-3 gap-4">
+          <div className="md:mt-16 md:ml-16 mt-4 md-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-center lg:text-left text-[#EDEDE8] lg:text-6xl">
+              Adrien Augeix
+              <p className="text-2xl md:text-4xl font-bold bg-clip-text lg:text-4xl">
+                Developer
+              </p>
+            </h1>
+          </div>
+          
+          <div className="col-span-2"><MyTimeline /></div>
         </div>
       </main>
     </>
