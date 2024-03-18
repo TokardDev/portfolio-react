@@ -6,6 +6,7 @@ body {
   color: rgb(var(--foreground-rgb));
 }
 
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -17,9 +18,8 @@ body {
   scroll-behavior: smooth;
 }
 
-body,
-* {
-  cursor: none;
+body {
+  cursor:url(../imgs/cursor.png) 50 50 , auto;
 }
 
 .flare {
