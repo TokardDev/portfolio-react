@@ -48,3 +48,8 @@ body {
   }
 
 }
+
+.atropos-inner {
+  border-radius: 10px;
+  margin-top: -16%;
+}
