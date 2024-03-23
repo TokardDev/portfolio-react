@@ -45,7 +45,7 @@ function MyTimeline() {
         }
         return response.json();
       })
-      .then((data) => {
+      .then((data: never[]) => { // Update the type of 'data' to 'any[]'
         console.log('Fetched projects:', data); // Log fetched data
         if (!Array.isArray(data)) {
           throw new Error('Projects data is not an array');
@@ -73,10 +73,9 @@ function MyTimeline() {
   return (
     <div style={{ maxHeight: '100vh', overflowY: 'auto' }}>
       <VerticalTimeline>
-      <VerticalTimelineElement />
-      <VerticalTimelineElement />
+        <div style={{marginTop: '150px'}}></div>
       <IconContext.Provider value={{ color: "white", className: "global-class-name" }}>
-        {projects.map((project) => (
+        {projects.map((project: any) => (
           <VerticalTimelineElement
             key={project.id}
             className="vertical-timeline-element--work"
@@ -85,7 +84,7 @@ function MyTimeline() {
             date={project.date}
             iconStyle={{ background: '#303030', color: '#000' }}
             visible={true}
-            icon={languageImports[project.lang]}
+            icon={languageImports[project.lang as keyof typeof languageImports]} // Assertion de type
           >
             <Atropos shadow={false}>
               <div style={{ background: 'rgba(80, 80, 80, 0.6)', color: '#fff', padding: '20px' }}>

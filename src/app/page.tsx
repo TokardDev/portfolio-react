@@ -54,7 +54,7 @@ export default function Home() {
 
         .parag {
           overflow-y: scroll;
-          max-height: 90vh;
+          max-height: 95vh;
           -ms-overflow-style: none;  /* IE and Edge */
           scrollbar-width: none;  /* Firefox */
         }
@@ -87,7 +87,7 @@ export default function Home() {
               </div>
               <div className="border-l-4 border-[#45B79A]">
                 <p className="font-bold text-left text-[#EDEDE8] md:text-xl text-sm flex mt-5 ml-5">
-                Also a creative thinker, I'm constantly exploring new ideas and approaches to problem-solving.
+                  Also a creative thinker, I&apos;m constantly exploring new ideas and approaches to problem-solving.
                 </p>
               </div>
             </div>
