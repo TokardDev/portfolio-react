@@ -12,10 +12,13 @@ import { BiLogoPhp } from "react-icons/bi";
 import { SiGodotengine } from "react-icons/si";
 import { SiArduino } from "react-icons/si";
 import { SiKotlin } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { SiPrestashop } from "react-icons/si";
 
 const languageImports ={
   CSharp: <TbBrandCSharp />,
-  CPlusPlus: <SiCplusplus />,
+  CPP: <SiCplusplus />,
   Python: <FaPython />,
   Java: <FaJava />,
   React: <FaReact />,
@@ -24,6 +27,9 @@ const languageImports ={
   Godot: <SiGodotengine />,
   Arduino: <SiArduino />, 
   Kotlin: <SiKotlin />,
+  Bootstrap: <FaBootstrap />, 
+  HTML: <FaHtml5 />, 
+  prestashop: <SiPrestashop />
 };
 
 function MyTimeline() {
@@ -61,6 +67,8 @@ function MyTimeline() {
   if (error) {
     return <div>Error: {error}</div>;
   }
+
+
 
   return (
     <div style={{ maxHeight: '100vh', overflowY: 'auto' }}>

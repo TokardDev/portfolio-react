@@ -1,99 +1,91 @@
 [
     {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
-        "lang": "Kotlin"
-    },      
-    {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
-        "lang": "PHP"
-    },      
-    {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
-        "lang": "Python"
-    },      
-    {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
-        "lang": "CSharp"
-    },      
-    {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
-        "lang": "CPlusPlus"
-    },      
-    {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
+        "id": "portfolio",
+        "date": "03-2024",
+        "title": "Web Portfolio",
+        "subtitle": "React, Next.js",
+        "description": "Personal portfolio website showcasing my projects, skills, and experience.", 
         "lang": "React"
-    },      
+    },  
     {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
-        "lang": "JS"
+        "id": "php-GSB",
+        "date": "03-2024",
+        "title": "GSB WebApp",
+        "subtitle": "Pure PHP",
+        "description": "Group project for a fictional pharmaceutical company.", 
+        "lang": "PHP"
     }, 
     {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
-        "lang": "Python"
-    },      
+        "id": "android",
+        "date": "01-2024",
+        "title": "Doctor management application",
+        "subtitle": "Kotlin, Android Studio",
+        "description": "A client and appointment management application for doctors.", 
+        "lang": "Kotlin"
+    },  
     {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
+        "id": "protobase",
+        "date": "02-2024",
+        "title": "Protobase",
+        "subtitle": "C++, Arduino (ESP-32)",
+        "description": "Project that aims to control 2 64*32 led matrices with an ESP-32. A second ESP-32 embedded in a glove allows to control the matrices in real time wirelessly. Still a work in progress.", 
+        "lang": "CPP"
+    },
+    {
+        "id": "tech-csharp",
+        "date": "12-2023",
+        "title": "Control panel for technician",
+        "subtitle": "C#, .net framework",
+        "description": "A control panel for technicians to manage their interventions.", 
         "lang": "CSharp"
-    },      
+    },    
     {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
-        "lang": "CPlusPlus"
-    },      
+        "id": "csharp",
+        "date": "10-2023",
+        "title": "Tamagochi",
+        "subtitle": "C#, .net framework",
+        "description": "A virtual pet game made in CSharp.", 
+        "lang": "CSharp"
+    },
     {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
-        "lang": "Java"
-    },      
+        "id": "urbanfoxesmap",
+        "date": "06-2023",
+        "title": "Showcase Website",
+        "subtitle": "HTML, CSS, Bootstrap",
+        "description": "Website for QRtouch Development, a company that creates mobile applications.", 
+        "lang": "Bootstrap"
+    },
     {
-        "id": "gsb-android",
-        "date": "2024-03-19",
-        "title": "Medical Appointment Manager",
-        "subtitle": "Kotlin, Android studio",
-        "description": "Medical data recording and appointment scheduling application for GSB, a fictional medical center.", 
-        "lang": "JS"
-    } 
+        "id": "prestashop",
+        "date": "11-2022",
+        "title": "Prestashop Website",
+        "subtitle": "Prestashop",
+        "description": "Website for a fictional VR store, made with Prestashop.", 
+        "lang": "prestashop"
+    },
+    {
+        "id": "fox-bar",
+        "date": "09-2022",
+        "title": "Fox Bar",
+        "subtitle": "HTML, CSS, native JS",
+        "description": "Website for a fictional bar, made with HTML, CSS and native JS.", 
+        "lang": "HTML"
+    },
+    {
+        "id": "targon-archives",
+        "date": "03-2022",
+        "title": "Mount Targon's archives",
+        "subtitle": "Python, Flask",
+        "description": "Website that displays information about players statistics in the game League of Legends.", 
+        "lang": "Python"
+    },
+    {
+        "id": "paper-mario",
+        "date": "11-2021",
+        "title": "Super Paper Mario Clone",
+        "subtitle": "Python, Ursina Engine",
+        "description": "Clone of the mechanics (switching from 2d to 3d) from the game Super Paper Mario, made in Python using Ursina Engine.", 
+        "lang": "Python"
+    }
 ]
   
